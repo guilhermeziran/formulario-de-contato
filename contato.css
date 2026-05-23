@@ -1,0 +1,139 @@
+body {
+    background-color: #ffbb003f;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/069/167/461/small/pixelated-banana-artistry-a-nostalgic-fruit-display-in-retro-gaming-style-isolated-png.png); 
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: 1left;
+    color: #fabc02;
+    margin-top: 0;    
+    margin-bottom: 0px;
+    font-size: 45px;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+     padding-top: 25vh;
+}
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 0 2rem 0 auto;
+}
+
+form {
+    padding: 8px 20px 20px 20px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.form-group {
+    position: relative;
+    margin: 0.8rem 0;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px 12px 6px 12px;
+    border: 1px solid #f4a300;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: transparent;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #ff7e05;
+    border-width: 2px;
+}
+
+.form-group label {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #b19c70;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    padding: 0 4px;
+    
+}
+
+.form-group input:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: 0;
+    font-size: 15px;
+    color: #f4a300;
+    background-color: #ffd04d;
+    border-radius: 20px;
+    transform: translateY(-50%);
+}
+
+.form-group select + label {
+    top: 0;
+    font-size: 12px;
+    color: #f4a300;
+    background-color: #ffd04d;
+    border-radius: 20px;
+    transform: translateY(-50%);
+}
+
+.form-group textarea + label {
+    top: 18px;
+    transform: none;
+}
+
+.form-group textarea:focus + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-50%);
+}
+
+button[type="submit"] {
+    background-color: rgb(255, 170, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7e05;
+    transition: 0.7s;
+}
+
+/*ESTILO-BANANA
+
+.olho-banana{
+    color: #734a07;
+    background-color: #f4a300;
+    padding: 50px solid #f4a300;
+    border: 50px solid #f4a300;
+    margin: 50px solid #f4a300;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px; 
+}
+.boca-banana{
+    color: #734a07;
+    background-color: #f4a300;
+    padding: 50px solid #f4a300;
+    border: 50px solid #f4a300;
+    margin: 50px solid #f4a300;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; 
+}
+
+
